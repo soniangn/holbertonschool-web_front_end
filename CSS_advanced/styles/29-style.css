@@ -192,11 +192,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+.nav .nav-link::before {
     content: empty;
     position: absolute;
     vertical-align: 0;
     align-items: 0;
     background-color: var(--color-white);
+    width: 0;
     height: 20%;
 }
 
