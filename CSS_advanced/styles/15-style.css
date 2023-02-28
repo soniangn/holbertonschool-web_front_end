@@ -27,8 +27,7 @@
 
 
 * {
-    margin: 0px;
-    padding: 0px;
+    box-sizing: unset;
 }
 
 html {
