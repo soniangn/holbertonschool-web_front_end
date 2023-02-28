@@ -197,11 +197,16 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-link::before {
     content: empty;
     position: absolute;
-    vertical-align: 0;
-    align-items: 0;
+    bottom: 0;
+    left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
+}
+
+.nav .nav-link:hover::before {
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 ul.row {
